@@ -10,6 +10,10 @@
     homebrew_cask_apps:
       - virtualbox
       - google-chrome
+    
+    homebrew_taps:
+      - homebrew/core
+      - homebrew/cask
       
   roles:
     - role: elliotweiser.osx-command-line-tools
