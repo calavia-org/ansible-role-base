@@ -7,8 +7,6 @@
     homebrew_installed_packages:
       - ssh-copy-id
       - caskroom/cask/brew-cask
-      
-    homebrew_cask_apps:
       - virtualbox
       - google-chrome
     
