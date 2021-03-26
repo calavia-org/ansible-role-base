@@ -3,9 +3,18 @@
   become: true
   
   vars:
-    homebrew_prefix: /opt/homebrew
-    homebrew_install_path: "{{ homebrew_prefix }}"
+    homebrew_clear_cache: true
+
+    homebrew_taps:
+      - homebrew/core
+
+    homebrew_installed_packages:
+      - ssh-copy-id
+
+    homebrew_cask_apps:
+      - virtualbox
+      - google-chrome
 
   roles:
-    - role: geerlingguy.homebrew
     - role: elliotweiser.osx-command-line-tools
+    - role: geerlingguy.homebrew
