@@ -1,11 +1,5 @@
 ---
 - hosts: all
-  
-  roles:
-    - role: elliotweiser.osx-command-line-tools
-    
----
-- hosts: all
 
   vars:
     homebrew_upgrade_all_packages: yes
@@ -21,6 +15,9 @@
       - virtualbox
       - google-chrome
     
+  roles:
+    - role: elliotweiser.osx-command-line-tools
+
   tasks:
     # Tap.
     - name: Ensure configured taps are tapped.
