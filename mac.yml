@@ -2,7 +2,7 @@
 - hosts: all
 
   environment:
-    PATH: /opt/homebrew/bin:$PATH
+    PATH: /opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin
 
   vars:
     homebrew_upgrade_all_packages: yes
