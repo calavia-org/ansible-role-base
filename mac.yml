@@ -1,6 +1,9 @@
 ---
 - hosts: all
 
+  environment:
+    PATH: /opt/homebrew/bin:$PATH
+
   vars:
     homebrew_upgrade_all_packages: yes
     
