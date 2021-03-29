@@ -49,6 +49,6 @@
       - vlc
 
   roles:
-    - role: elliotweiser.osx-command-line-tools
-    - role: geerlingguy.homebrew
+    - elliotweiser.osx-command-line-tools
+    - geerlingguy.homebrew
 
