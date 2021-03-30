@@ -36,7 +36,8 @@
       - tmux
       - tree
       - unzip
-      - vim 
+      - vim
+      - virtualenv
       - watch
       - wget
 
