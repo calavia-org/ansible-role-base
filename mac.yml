@@ -45,8 +45,10 @@
 
     homebrew_cask_apps:
 #      - docker -- Apple Silicon M1 not in brew at devleopment time
+      - dbeaver-community
       - eclipse-installer
       - google-chrome
+      - microsoft-remote-desktop
 #      - virtualbox
 #      - virtualbox-extension-pack
       - vlc
